@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.header{
+    background: #E6F0FF;
+    height: 100vh;
+    padding-top: 38px;
+    position: relative;
+   
+}
+/* Cammon */
+.btn{
+    display: inline-block;
+    border-radius: 8px;
+    background: #0F1B4C;
+ min-width: 98px;
+    padding: 16px 14px;
+    text-align: center;
+    color: #fff;
+
+}
+a{
+    text-decoration: none;
+}
+.content{
+    width: 1110px;
+    max-width: calc(100% - 48px);
+   margin-left: auto;
+   margin-right: auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar .action{
+    margin-left: auto;
+}
+.navbar ul a{
+    color: #4F5361;
+    font-size: 1.4rem;
+    font-weight: 500;
+   padding: 8px 14px;
+   }
+.navbar img{
+    margin-right: 50px;
+}
+.navbar .action-link{
+    color: #0F1B4C;
+font-size: 1.4rem;
+font-weight: 500;
+
+}
+.navbar .btn-action{
+   margin-left: 18px;
+}
+.hero{
+    margin-top: 130px;
+    width: 51%;
+    
+}
+.info .sub-title{
+    color: #687690;
+font-size: 1.8rem;
+font-weight: 500;
+letter-spacing: 0.1;
+}
+.info .title{
+    color: #000336;
+margin-top: 8px;
+font-size: 6.4rem;
+font-weight: 700;
+line-height: 1.18;
+}
+.info .desc{
+    color: #5A6473;
+font-size: 1.8rem;
+font-weight: 400;
+line-height: 1.5;
+margin-top: 30px;
+
+}
+.info .btn-hero{
+    width: 170px;
+   margin-top: 40px;
+}
+.hero .img-hero{
+    position: absolute;
+    bottom: 0;
+    right: calc((100vw - 1110px) / 2 - 100px);
+   
+}
+.client{
+    margin-top: 79px;
+    padding: 43px 165px 41px 165px;
+    background-color: aquamarine;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.row-desc{
+    margin-top: 22px;
+}
+.row-image{
+    margin-top: 70px;
+}
+.guides{
+    margin-top: 40px;
+    padding: 79px 0;
+}
+
+   
+
+.guides .title::before{
+    content: "";
+    width: 41px;
+   height: 4px;
+  display: inline-block;
+border-radius: 12px 0px 0px 0px;
+background: #000339;
+position: absolute;
+top: 0;
+margin-top: -10px;
+left: 50%;
+transform: translateX(-50%)
+
+}
+.guides .title{
+ position: relative;
+font-size: 3.5rem;
+font-weight: 600;
+text-align: center;
+
+}
+.guides .desc{
+    width: 459px;
+    max-width: 100%;
+    color: #5A6473;
+text-align: center;
+
+font-size: 1.6rem;
+
+font-weight: 400;
+line-height: 1.8;
+margin: 0 auto;
+}
+.guides .image{
+    display: flex;
+    justify-content: center;
+}
+.guides .guides-img{
+    padding: 70px 70px;
+}
